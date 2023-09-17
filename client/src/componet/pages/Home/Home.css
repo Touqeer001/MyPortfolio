@@ -1,0 +1,44 @@
+.home-container {
+    height: 300px;
+    color: white;
+    padding-left: 150px; 
+    background-color: black;
+  }
+  .home-content h1 {
+    color: rgb(242, 241, 241);
+    padding: 0px;
+    padding-top: 70px;
+    margin-left: 5px;
+
+ 
+  }
+  .home-content h2 {
+    color: #e0b50f;
+    padding: 5px;
+  
+  }
+  .home-buttons{ 
+     margin-left: 10px; 
+    margin-top: 20px;
+  }
+  .home-buttons .btn-hire {
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+  }
+  .home-buttons .btn-hire:hover {
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+    transition: 1s;
+  }
+  
+.home-buttons .btn-cv {
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+  }
+  .home-buttons .btn-cv:hover {
+    opacity: 80%;
+    transition: 1s;
+  }

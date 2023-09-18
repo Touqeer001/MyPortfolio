@@ -1,10 +1,10 @@
 import React from 'react'
-import photo from '../../../assets/images/My profile.jpeg'
+import photo from '../../../assets/images/profilePic.jpeg'
 import './About.css'
 const About = ()=>{
   return (
   <>
-<div className="about">
+<div className="about" id="About">
     <div className="row">
         <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12  about-img">
         <img
@@ -14,7 +14,7 @@ const About = ()=>{
           /> </div>
            <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
             <h1>About me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sunt ipsam corporis totam, vel, sequi repellendus ut nostrum quos beatae porro! Ullam, quidem quibusdam asperiores error vitae possimus quod?</p>
+            <p>Passionate Full Stack MERN Developer with a proven track record of building responsive web applications. Proficient in MongoDB, Express.js, React, and Node.js.</p>
            </div>
        
        

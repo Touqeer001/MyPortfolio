@@ -2,10 +2,24 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from '../../../assets/docs/Touqeer.pdf';
+import {useTheme} from '../../context/ThemeContextt.js';
+
+import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 const Home=()=> {
+  const[theme,setTheme]=useTheme();
+  //handle Theme
+  const handleThem=()=>{
+    setTheme((prevState)=>(prevState==="light"?"dark":"light"));
+  }
   return (
     <>
-      <div className="container-fluid home-container">
+      <div className="container-fluid home-container" id="Home">
+        <div className="theme-btn" onClick={handleThem}>
+          {
+            theme==="light"?(  <BsFillMoonStarsFill size={30} />):(   <BsFillSunFill size={30} />)
+          }
+
+        </div>
         <div className="container home-content">
           <h1>Hi 👋 I'm a</h1>
           <h2>

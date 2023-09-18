@@ -1,10 +1,10 @@
 .about {
     margin: 30px;
     padding: 20px;
-    margin-left: 180px;
+    margin-left: 126px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     /* margin-top: -180px; */
-    margin-right: 25px;
+    margin-right: 6px;
     /* background-color: black; */
    
 
@@ -35,7 +35,8 @@
   }
   
 .about-content h1 {
-    color: gray;
+ color:white;
+   
     font-family: cursive;
     border-bottom: 2px solid gray;
     text-align: center;

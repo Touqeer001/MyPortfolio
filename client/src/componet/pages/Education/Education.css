@@ -1,23 +1,23 @@
 .education {
-    padding: 100px 0px;
+    padding: 10px 0px;
     margin: 50px 0px;
     margin-left: 120px;
     background-color: rgba(128, 128, 128, 0.101);
   }
   
   .education hr {
-    color: #138781;
+    color:white;
     width: 400px;
     margin: 10px auto;
   }
   
   .education h2 {
     font-weight: bold;
-    color: #138781;
+    color:white;
   }
   
   .education .vertical-timeline-element-title {
-    color: #138781;
+    color:white;
   }
   
   .education .vertical-timeline-element-subtitle {

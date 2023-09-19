@@ -5,6 +5,7 @@ import Resume from '../../../assets/docs/Touqeer.pdf';
 import {useTheme} from '../../context/ThemeContextt.js';
 
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import Fade from 'react-reveal/Fade';
 const Home=()=> {
   const[theme,setTheme]=useTheme();
   //handle Theme
@@ -31,12 +32,15 @@ const Home=()=> {
               }}
             />
           </h2>
+          <Fade bottom big>
           <div className="home-buttons">
+            <a  className="btn btn-hire" href="https://api.whatsapp.com/send?phone=9307333674" rel="noreferrer" target="_blank">Hire Me</a>
             
-          <button className="btn btn-hire">Hire Me</button>
+          {/* <button className="btn btn-hire">Hire Me</button> */}
           <a className="btn btn-cv" href={Resume} download="Touqeer.pdf">My Resume</a>
             
           </div>
+          </Fade>
         </div>
       </div>
     </>

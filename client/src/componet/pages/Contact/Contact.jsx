@@ -2,9 +2,11 @@ import React from "react";
 import "./Conatct.css";
 import contact from "../../../assets/images/contact.avif";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import Fade from 'react-reveal/Fade';
 const Contact = () => {
   return (
     <>
+    <Fade bottom>
       
  <div className=" contact" id="contact">
         <div className="card card0 border-0">
@@ -83,6 +85,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      </Fade>
 
 
     </>

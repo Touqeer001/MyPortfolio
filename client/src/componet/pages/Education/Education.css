@@ -17,10 +17,26 @@
   }
   
   .education .vertical-timeline-element-title {
-    color:white;
+    color:black;
   }
   
   .education .vertical-timeline-element-subtitle {
     color: #1e1e2c;
   }
-  
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+   font-size: 20px;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+@media(max-width:600px){
+  .education{
+    padding: 0px;
+    margin: 0px;
+  }
+}

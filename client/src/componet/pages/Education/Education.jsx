@@ -13,7 +13,7 @@ const Education = () => {
         </h2>
         <hr />
         <VerticalTimeline>
-          <VerticalTimelineElement
+          <VerticalTimelineElement id='date'
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
@@ -36,7 +36,7 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">Higher Secondary School</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              MUmbai,India.
+              Mumbai,India.
             </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>

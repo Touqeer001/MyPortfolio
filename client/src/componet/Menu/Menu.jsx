@@ -10,6 +10,8 @@ import {
 } from "react-icons/fc";
 import photo from "../../assets/images/My profile.jpeg";
 import * as Scroll from 'react-scroll';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 import { Link } from "react-scroll";
 
@@ -18,16 +20,21 @@ const Menu = ({ toggle }) => {
     <>
       {toggle ? (
         <>
+         
           <div className="navbar-profile-pic ">
+          <Zoom>
             <img
               // src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
               src={photo}
               alt="profile pic"
             />
+            </Zoom>
           </div>
+          <Fade left>
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
+            
                 <Link
                   to="Home"
                   spy={true}
@@ -117,6 +124,7 @@ const Menu = ({ toggle }) => {
               </div>
             </div>
           </div>
+          </Fade>
         </>
       ) : (
         <>

@@ -10,38 +10,39 @@ import { useTheme } from "./componet/context/ThemeContextt";
 import MobileNav from "./componet/MobileNav/MobileNav";
 
 function App() {
-  const[theme]=useTheme();
+  const [theme] = useTheme();
   return (
     <>
-    <div id={theme}>
-      <MobileNav></MobileNav>
-      <Layout></Layout>
-      <hr style={{opacity:3.25,
-    color:'white'}}></hr>
+      <div id={theme}>
+        <MobileNav></MobileNav>
+        <Layout></Layout>
+        <hr style={{ opacity: 3.25, color: "white" }}></hr>
 
-      <div className="container">
-        <About></About>
-        <Education></Education>
-        <TechStack></TechStack>
-        <Project />
-        <Contact></Contact>
+        <div className="container">
+          <About></About>
+          <Education></Education>
+          <TechStack></TechStack>
+          <Project />
+          <Contact></Contact>
+        </div>
+        <div className="footer mb-3 ms-3 ">
+          <h5 className="text-center">
+            Made by Touqeer ibn Khursheed &copy;2023
+          </h5>
+        </div>
       </div>
-      <div className="footer mb-3 ms-3 ">
-        <h5 className="text-center">
-          Made with Touqeer ibn Khursheed &copy;2023
-        </h5>
-      </div>
-      </div>
-    <ScrollToTop id="ScrollToTop"
+      <ScrollToTop
+        id="ScrollToTop"
         smooth
         color="yellow"
-        style={{ backgroundColor: "#1e1e2c", borderRadius: "80px" 
-      // @media(max-width:600){
-      //   margin-left:20px
+        style={{
+          backgroundColor: "#1e1e2c",
+          borderRadius: "80px",
+          // @media(max-width:600){
+          //   margin-left:20px
 
-      // }
-      }}
-     
+          // }
+        }}
       />
     </>
   );

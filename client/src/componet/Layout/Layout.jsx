@@ -8,7 +8,7 @@ import Menu from '../Menu/Menu.jsx';
 const Layout=()=> {
 const[toggle,setToggle]=useState(true);
 
-//change Toggle
+//change Toggle..
 const handleToggle=()=>{
   setToggle(!toggle);
 }

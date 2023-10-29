@@ -24,7 +24,7 @@ const Menu = ({ toggle }) => {
           <div className="navbar-profile-pic ">
           <Zoom>
             <img
-              // src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
+              
               src={photo}
               alt="profile pic"
             />

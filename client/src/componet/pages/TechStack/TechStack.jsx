@@ -2,7 +2,7 @@ import React from "react";
 import "./TechStack.css";
 import { TechStackList } from "../../utils/util";
 import Pulse from "react-reveal/Pulse";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 const TechStack = () => {
   return (
     <>

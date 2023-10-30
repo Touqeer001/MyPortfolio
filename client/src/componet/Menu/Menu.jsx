@@ -9,9 +9,9 @@ import {
   FcBusinessContact,
 } from "react-icons/fc";
 import photo from "../../assets/images/My profile.jpeg";
-import * as Scroll from 'react-scroll';
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
+import * as Scroll from "react-scroll";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 import { Link } from "react-scroll";
 
@@ -20,110 +20,102 @@ const Menu = ({ toggle }) => {
     <>
       {toggle ? (
         <>
-         
           <div className="navbar-profile-pic ">
-          <Zoom>
-            <img
-              
-              src={photo}
-              alt="profile pic"
-            />
+            <Zoom>
+              <img src={photo} alt="profile pic" />
             </Zoom>
           </div>
           <Fade left>
-          <div className="nav-items">
-            <div className="nav-item">
-              <div className="nav-link">
-            
-                <Link
-                  to="Home"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-                  <FcHome></FcHome>Home
-                </Link>
+            <div className="nav-items">
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link
+                    to="Home"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcHome></FcHome>Home
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="About"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcAbout />
+                    About
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="education"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcReadingEbook />
+                    Education
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="techstack"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcBiotech />
+                    TechStack
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="project"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcVideoProjector />
+                    Project
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcBusinessContact />
+                    Contact
+                  </Link>
+                </div>
               </div>
             </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                {" "}
-                <Link
-                  to="About"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-                <FcAbout />
-                About
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                {" "}
-                <Link
-                  to="education"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-                <FcReadingEbook />
-                Education
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                {" "}
-                <Link
-                  to="techstack"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-                <FcBiotech />
-                TechStack
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                {" "}
-                <Link
-                  to="project"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-
-                <FcVideoProjector />
-                Project
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                {" "}
-                <Link
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-
-                <FcBusinessContact />
-                Contact
-                </Link>
-              </div>
-            </div>
-          </div>
           </Fade>
         </>
       ) : (
@@ -131,14 +123,14 @@ const Menu = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
-              <Link
+                <Link
                   to="Home"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={100}
                 >
-                <FcHome title="Home" />
+                  <FcHome title="Home" />
                 </Link>
               </div>
             </div>
@@ -152,7 +144,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                <FcAbout title="About" />
+                  <FcAbout title="About" />
                 </Link>
               </div>
             </div>
@@ -166,7 +158,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                <FcReadingEbook title="Education" />
+                  <FcReadingEbook title="Education" />
                 </Link>
               </div>
             </div>
@@ -180,7 +172,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                <FcBiotech title="TechStack" />
+                  <FcBiotech title="TechStack" />
                 </Link>
               </div>
             </div>
@@ -194,7 +186,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                <FcVideoProjector title="Project" />
+                  <FcVideoProjector title="Project" />
                 </Link>
               </div>
             </div>
@@ -208,7 +200,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                <FcBusinessContact title="Contact" />
+                  <FcBusinessContact title="Contact" />
                 </Link>
               </div>
             </div>

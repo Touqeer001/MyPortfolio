@@ -42,7 +42,7 @@ const Project = () => {
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://weather-web-base-application.vercel.app/"
+                    href="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack.git"
                   >
                     Github
                   </a>
@@ -76,7 +76,7 @@ const Project = () => {
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://weather-web-base-application.vercel.app/"
+                    href="https://github.com/Touqeer001/Weather-web-base-application.git"
                   >
                     Github
                   </a>
@@ -109,7 +109,7 @@ const Project = () => {
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://weather-web-base-application.vercel.app/"
+                    href="https://github.com/Touqeer001/E-Commerce-Using-MERN-Stack.git"
                   >
                     Github
                   </a>

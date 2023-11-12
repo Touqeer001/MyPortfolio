@@ -14,6 +14,7 @@ const Project = () => {
           </h2>
           <hr></hr>
           <p className="pb-3 text-center">👉Here is My Most Recent Project</p>
+
           {/* Card Design  */}
           <div className="row" id="ads">
             <div className="col-md-4">
@@ -83,6 +84,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
+
             {/* 2 card project */}
             <div className="col-md-4">
               <div className="card rounded">

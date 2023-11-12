@@ -38,10 +38,6 @@ function App() {
         style={{
           backgroundColor: "#1e1e2c",
           borderRadius: "80px",
-          // @media(max-width:600){
-          //   margin-left:20px
-
-          // }
         }}
       />
     </>

@@ -30,6 +30,8 @@
    */
    @media(max-width:600px){
     .sidebaar{
+   
       display: none;
     }
+    
    }

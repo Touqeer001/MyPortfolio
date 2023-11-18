@@ -2,38 +2,38 @@ import React from "react";
 import "./Conatct.css";
 import contact from "../../../assets/images/contact.avif";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 const Contact = () => {
   return (
     <>
-    <Fade bottom>
-      
- <div className=" contact" id="contact">
-        <div className="card card0 border-0">
-          <div className="row">
-            <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
-              <div className="card1">
-                <div className="row border-line">
-                  {/* <LightSpeed> */}
-                    <img
-                      src={ contact}
-                      alt="ocontact"
-                      className="image"
-                    />
-                  {/* </LightSpeed> */}
+      <Fade bottom>
+        <div className=" contact" id="contact">
+          <div className="card card0 border-0">
+            <div className="row">
+              <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+                <div className="card1">
+                  <div className="row border-line">
+                    {/* <LightSpeed> */}
+                    <img src={contact} alt="ocontact" className="image" />
+                    {/* </LightSpeed> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              {/* <Rotate> */}
+              <div className="col-lg-6 col-md-6">
+                {/* <Rotate> */}
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
                       <h6>
                         Contact With
                         <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
                         
+                        <BsGithub
+                          color="black"
+                          size={30}
+                          className="ms-2"
+                         
+                        />
                       </h6>
                     </div>
 
@@ -74,20 +74,16 @@ const Contact = () => {
                     </div>
                     <div className="row px-3">
                       {/* <button className="button" onClick={handleSubmit}> */}
-                      <button className="button" >
-                        SEND MESSAGE
-                      </button>
+                      <button className="button">SEND MESSAGE</button>
                     </div>
                   </div>
                 </div>
-              {/* </Rotate> */}
+                {/* </Rotate> */}
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </Fade>
-
-
     </>
   );
 };

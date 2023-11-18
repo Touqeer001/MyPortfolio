@@ -8,6 +8,8 @@ import Contact from "./componet/pages/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./componet/context/ThemeContextt";
 import MobileNav from "./componet/MobileNav/MobileNav";
+import Certification from "./componet/pages/Certification/Certification.jsx";
+// import Certification from "./componet/pages/Certification/Certification";
 
 function App() {
   const [theme] = useTheme();
@@ -23,12 +25,12 @@ function App() {
           <Education></Education>
           <TechStack></TechStack>
           <Project />
+          {/* <Certification /> */}
+          <Certification></Certification>
           <Contact></Contact>
         </div>
         <div className="footer mb-3 ms-3 ">
-          <h5 className="text-center">
-            Touqeer Ansari&copy;2023
-          </h5>
+          <h5 className="text-center">Touqeer Ansari&copy;2023</h5>
         </div>
       </div>
       <ScrollToTop

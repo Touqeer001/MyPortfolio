@@ -5,7 +5,7 @@ code {
     monospace;
 } 
 *{
-  margin:0;
+  margin:0px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
@@ -22,4 +22,27 @@ code {
 #light{
   background-color:  rgb(16, 51, 67);
   color:white;
+}
+
+ @media (min-width: 200px) and (max-width: 500px) {
+  #light {
+    width: 130%;                 
+     /* Adjust this value based on your design requirements */
+    }
+}
+ @media (min-width: 200px) and (max-width: 300px) {
+  #light {
+    width: 180%;                 
+     /* Adjust this value based on your design requirements */
+    }
+}
+ 
+
+@media (min-width: 600px)  {
+  .footer {
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-bottom: 50px;
+   }
 }

@@ -27,7 +27,7 @@ function App() {
         </div>
         <div className="footer mb-3 ms-3 ">
           <h5 className="text-center">
-            Made by Touqeer ibn Khursheed &copy;2023
+            Touqeer Ansari&copy;2023
           </h5>
         </div>
       </div>

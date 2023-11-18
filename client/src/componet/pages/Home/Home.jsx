@@ -37,7 +37,7 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=+91-9307333674"
+                href="https://api.whatsapp.com/send?phone=9307333674"
                 rel="noreferrer"
                 target="_blank"
               >

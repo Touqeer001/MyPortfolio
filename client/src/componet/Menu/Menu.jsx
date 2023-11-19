@@ -85,6 +85,7 @@ const Menu = ({ toggle }) => {
                   </Link>
                 </div>
               </div>
+
               <div className="nav-item">
                 <div className="nav-link">
                   {" "}
@@ -100,6 +101,23 @@ const Menu = ({ toggle }) => {
                   </Link>
                 </div>
               </div>
+              {/*  */}
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="Certification"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcVideoProjector />
+                    Certificates
+                  </Link>
+                </div>
+              </div>
+
               <div className="nav-item">
                 <div className="nav-link">
                   {" "}
@@ -190,6 +208,22 @@ const Menu = ({ toggle }) => {
                 </Link>
               </div>
             </div>
+            {/*Certification  */}
+            <div className="nav-item">
+              <div className="nav-link">
+                {" "}
+                <Link
+                  to="Certification"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcBusinessContact title="Certification" />
+                </Link>
+              </div>
+            </div>
+
             <div className="nav-item">
               <div className="nav-link">
                 {" "}

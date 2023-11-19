@@ -1,5 +1,7 @@
 import React from "react";
-
+import Certificate from "../../../assets/images/certificates.png";
+import Internship from "../../../assets/images/internship certificate.png";
+import LOR from "../../../assets/images/Letter of Recommendation.png";
 const Certification = () => {
   return (
     <>
@@ -15,36 +17,73 @@ const Certification = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                {/* <span className="card-notify-badge">
-              Blog Web Application using Mern stack!
-            </span> */}
-                <img src={Image} alt="Project 1"></img>
+                <span className="card-notify-badge"></span>
+                <img src={Certificate} alt="Project 1"></img>
               </div>
-              {/* <div className="card-image-overly">
-            <span className="card-detail-badge">React</span>
-            <span className="card-detail-badge">Material UI</span>
-            <span className="card-detail-badge">MongoDB</span>
-            <span className="card-detail-badge">Node.JS</span>
-            <span className="card-detail-badge">Axios</span>
-          </div> */}
+
               <div className="card-body">
                 <div className="ad-title">
                   <h5 className="text-uppercase">
-                    Blog Web Application using Mern stack!
+                    Completed Full Stack Web Development training.
                   </h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a
+                  className="ad-btn"
+                  href="https://cert.devtown.in/verify/24A6P6"
+                >
                   View
                 </a>
-                {/* <a
-              className="ad-btn"
-              href="https://github.com/Touqeer001/Blog-Web-Application-Using-Mern-Stack.git"
-            >
-              Github
-            </a> */}
               </div>
             </div>
           </div>
+          {/* {...........................} */}
+          <div className="col-md-4" id="Certification">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge"></span>
+                <img src={Internship} alt="Project 1"></img>
+              </div>
+
+              <div className="card-body">
+                <div className="ad-title">
+                  <h5 className="text-uppercase">
+                    Completed Internship in MERN Stack.
+                  </h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://cert.devtown.in/verify/LBlxB"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* ------------------ */}
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge"></span>
+                <img src={LOR} alt="Project 1"></img>
+              </div>
+
+              <div className="card-body">
+                <div className="ad-title">
+                  <h5 className="text-uppercase">
+                    Completed Internship in MERN Stack.
+                  </h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://cert.devtown.in/verify/2littr"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* ----------------------------- */}
         </div>
       </div>
     </>

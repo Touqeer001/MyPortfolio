@@ -29,7 +29,7 @@ function App() {
           <Certification></Certification>
           <Contact></Contact>
         </div>
-        <div className="footer mb-3 ms-3 ">
+        <div className="footer mb-6 ms-3 ">
           <h5 className="text-center">Touqeer Ansari&copy;2023</h5>
         </div>
       </div>

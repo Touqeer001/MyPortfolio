@@ -10,6 +10,9 @@ code {
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
+
+  
+  
 }
 /* Dark Mode */
 
@@ -24,37 +27,10 @@ code {
   color:white;
 }
 
- @media (min-width: 200px) and (max-width: 500px) {
-  #light {
-    width: 130%;                 
-     /* Adjust this value based on your design requirements */
-    }
-}
- @media (min-width: 200px) and (max-width: 300px) {
-  #light {
-    width: 180%;                 
-     /* Adjust this value based on your design requirements */
-    }
-}
- 
 
-@media (min-width: 200px) and (max-width: 500px) {
-  #dark {
-    width: 130%;                 
-     /* Adjust this value based on your design requirements */
-    }
-}
- @media (min-width: 200px) and (max-width: 300px) {
-  #dark {
-    width: 180%;                 
-     /* Adjust this value based on your design requirements */
-    }
-}
-/* .footer{
 
-  margin-bottom: -40px;
 
-} */
+
 
 @media (min-width: 200px)  {
   .footer {
@@ -64,3 +40,6 @@ code {
     margin-bottom: -26px;
    }
 }
+
+
+

@@ -42,6 +42,8 @@ const Contact = () => {
       );
   };
 
+  const linkedinProfileUrl = "https://www.linkedin.com/in/touqeer-ansari/";
+  const GitHubProfileUrl = "https://github.com/Touqeer001";
   return (
     <>
       <Fade bottom>
@@ -61,8 +63,24 @@ const Contact = () => {
                     <div className="row">
                       <h6>
                         Contact With
-                        <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
+                        <a
+                          href={linkedinProfileUrl} 
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                          <BsLinkedin color="blue" size={30} />
+                        </a>
+
+                        <a
+                          href={GitHubProfileUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                      
+                          <BsGithub color="black" size={30} className="ms-2" />
+                        </a>
                       </h6>
                     </div>
                     <div className="row px-3 mb-4">

@@ -23,11 +23,11 @@ const Home = () => {
           )}
         </div>
         <div className="container home-content">
-          <h1>Hi 👋 I'm a</h1>
+          <h1>Hi 👋 I'm Touqeer Ansari</h1>
           <h2>
             <Typewriter
               options={{
-                strings: ["FullStack Developer !", "MERN Developer !"],
+                strings: ["Full Stack Developer !", "MERN Stack  Developer !"],
                 autoStart: true,
                 loop: true,
               }}

@@ -18,7 +18,7 @@ function App() {
       <div id={theme}>
         <MobileNav></MobileNav>
         <Layout></Layout>
-        <hr style={{ opacity: 3.25, color: "white" }}></hr>
+        {/* <hr style={{ opacity: 3.25, color: "white" }}></hr> */}
 
         <div className="container">
           <About></About>

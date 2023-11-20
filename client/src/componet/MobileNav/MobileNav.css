@@ -91,5 +91,6 @@
 @media (min-width: 600px) {
   .mobile-nav {
     display: none;
+    
   }
 }

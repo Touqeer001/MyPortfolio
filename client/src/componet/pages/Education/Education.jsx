@@ -29,7 +29,7 @@ const Education = () => {
               B.E Computer Engineering (8.5 CGPA)
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Theem college of Engineering,University Of Mumbai,India
+              Theem College Of Engineering,University Of Mumbai,India
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

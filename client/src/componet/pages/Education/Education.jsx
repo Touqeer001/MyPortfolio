@@ -26,7 +26,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
-              B.E Computer Engineering (8.5 CGPA)
+              B.E Computer Engineering (8.7 CGPA)
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Theem College Of Engineering,University Of Mumbai,India

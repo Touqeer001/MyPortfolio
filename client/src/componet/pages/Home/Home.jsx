@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "../../../assets/docs/Touqeer's_Softwere_Developer_Resume (1).pdf";
+import Resume from "../../../assets/docs/Touqeer_Ansari_Resume.pdf";
 import { useTheme } from "../../context/ThemeContextt.js";
 
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
@@ -45,7 +45,7 @@ const Home = () => {
               </a>
 
               {/* <button className="btn btn-hire">Hire Me</button> */}
-              <a className="btn btn-cv" href={Resume} download="Touqeer.pdf">
+              <a className="btn btn-cv" href={Resume} download="Touqeer_Resume.pdf">
                 My Resume
               </a>
             </div>

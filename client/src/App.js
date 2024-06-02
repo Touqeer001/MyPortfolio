@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./componet/context/ThemeContextt";
 import MobileNav from "./componet/MobileNav/MobileNav";
 import Certification from "./componet/pages/Certification/Certification.jsx";
+import WorkExp from "./componet/pages/Workexp/Workexp.jsx";
 // import Certification from "./componet/pages/Certification/Certification";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
         <div className="container">
           <About></About>
+          <WorkExp></WorkExp>
           <Project />
           <TechStack></TechStack>
           <Education></Education>

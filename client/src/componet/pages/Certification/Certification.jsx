@@ -47,7 +47,7 @@ const Certification = () => {
               <div className="card-body">
                 <div className="ad-title">
                   <h5 className="text-uppercase">
-                    Completed Internship in MERN Stack.
+                    Completed 6 month Internship in MERN Stack.
                   </h5>
                 </div>
                 <a
@@ -71,7 +71,7 @@ const Certification = () => {
               <div className="card-body">
                 <div className="ad-title">
                   <h5 className="text-uppercase">
-                    Completed Internship in MERN Stack.
+                    Letter OF Recommendation from Devtown.
                   </h5>
                 </div>
                 <a

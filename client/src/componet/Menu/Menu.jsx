@@ -55,6 +55,22 @@ const Menu = ({ toggle }) => {
                   </Link>
                 </div>
               </div>
+
+              <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="Work"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcAbout />
+                    Work Experience
+                  </Link>
+                </div>
+              </div>
               <div className="nav-item">
                 <div className="nav-link">
                   {" "}

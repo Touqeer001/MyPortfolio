@@ -54,6 +54,39 @@ const Project = () => {
               </div>
             </div>
 
+            <div className="col-md-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">E-commerce Using MERN Stack</span>
+                  <img src={Download} alt="Project 3"></img>
+                </div>
+                <div className="card-image-overly">
+                  <span className="card-detail-badge">React.js</span>
+                  <span className="card-detail-badge">Nodejs</span>
+                  <span className="card-detail-badge">MongoDb</span>
+                  <span className="card-detail-badge">Material Ui</span>
+                </div>
+                <div className="card-body">
+                  <div className="ad-title">
+                    <h6 className="text-uppercase">
+                     Feature:Seperated Admin And User Panel.
+                    </h6>
+                  </div>
+                  <a className="ad-btn" href="https://easybuyhubs.netlify.app">
+                    View
+                  </a>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/Touqeer001/E-commerce-web-application-using-MERN-Stack"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            
+
             {/* project Section 2 */}
             <div className="col-md-4">
               <div className="card rounded">
@@ -90,12 +123,10 @@ const Project = () => {
             </div>
 
             {/* 2 card project */}
-            <div className="col-md-4">
+            <div className="col-md-4  mt-5">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">
-                    E-commerce Web Application Using MERN Stack
-                  </span>
+                  <span className="card-notify-badge">Flipkart Clone</span>
                   <img src={Download} alt="Project 3"></img>
                 </div>
                 <div className="card-image-overly">
@@ -107,10 +138,10 @@ const Project = () => {
                 <div className="card-body">
                   <div className="ad-title">
                     <h5 className="text-uppercase">
-                      E-commerce Web Application Using MERN Stack
+                     Flipkart Clone Using MERN Stack
                     </h5>
                   </div>
-                  <a className="ad-btn" href="#">
+                  <a className="ad-btn" href="https://swipekart.000webhostapp.com">
                     View
                   </a>
                   <a
@@ -227,6 +258,11 @@ const Project = () => {
               </div>
             </div>
             {/* ----------------------------------------------------------------------------- */}
+           
+
+
+
+
 
             {/* <div>Next</div> */}
           </div>

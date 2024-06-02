@@ -14,13 +14,12 @@ const About = () => {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About me</h1>
               <p>
-                Dedicated MERN Developer with a passion for crafting innovative
-                web applications.Experienced in leveraging MongoDB, Express.js,
-                React,and Node.js to create dynamic and user-friendly
-                solutions.Adept at collaborating with cross-functional teams to
-                deliver high-quality projects.Seeking opportunities to
-                contribute technical expertise and creativity to a
-                forward-thinking organization.
+                With 6 months of hands-on experience in full-stack web
+                development at DevTown, I specialize in the MERN stack (MongoDB,
+                Express.js, React.js, and Node.js). My background includes
+                developing and deploying scalable, high-performance web
+                applications, addressing real-world challenges with innovative
+                solutions.
               </p>
             </div>
           </div>

@@ -22,9 +22,11 @@ function App() {
 
         <div className="container">
           <About></About>
-          <Education></Education>
-          <TechStack></TechStack>
           <Project />
+          <TechStack></TechStack>
+          <Education></Education>
+          
+          
           {/* <Certification /> */}
           <Certification></Certification>
           <Contact></Contact>

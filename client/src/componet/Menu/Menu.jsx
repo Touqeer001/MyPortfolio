@@ -70,6 +70,26 @@ const Menu = ({ toggle }) => {
                     Work Experience
                   </Link>
                 </div>
+
+                <div className="nav-item">
+                <div className="nav-link">
+                  {" "}
+                  <Link
+                    to="project"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <FcVideoProjector />
+                    Project
+                  </Link>
+                </div>
+              </div>
+
+
+
+
               </div>
               <div className="nav-item">
                 <div className="nav-link">
@@ -102,21 +122,7 @@ const Menu = ({ toggle }) => {
                 </div>
               </div>
 
-              <div className="nav-item">
-                <div className="nav-link">
-                  {" "}
-                  <Link
-                    to="project"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={100}
-                  >
-                    <FcVideoProjector />
-                    Project
-                  </Link>
-                </div>
-              </div>
+             
               {/*  */}
               <div className="nav-item">
                 <div className="nav-link">

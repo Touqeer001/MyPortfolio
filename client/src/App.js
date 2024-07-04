@@ -34,7 +34,7 @@ function App() {
           <Contact></Contact>
         </div>
         <div className="footer mb-6 ms-3 ">
-          <h5 className="text-center">Touqeer Ansari&copy;2023</h5>
+          <h5 className="text-center">Touqeer Ansari&copy;2024</h5>
         </div>
       </div>
       <ScrollToTop
